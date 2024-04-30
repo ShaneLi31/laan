@@ -184,4 +184,15 @@ only one right inverse. []
 
 ## [Corollary] If an element u of a ring with an identity has right inverse but no left inverse, then it has infinitely many right inverses.
 
-Proof. u is not a unit, so u has more than one right inverses, then infinitely many.
+Proof. u is not a unit, so u has more than one right inverses, then infinitely many. []
+
+## [Property] If R is a commutative ring with an identity, then (a)(b) = 1 for (a), (b) in Rn implies that (b)(a) = 1.
+
+Proof. Since det(a)det(b) = det((a)(b)) = det(1) = 1, det(b)det(a) = 1.
+```
+(a)(b) = 1 => (a)(b)adj(b) = adj(b) => (a)(det(b)1) = adj(b)
+           => (b)(a)(det(b)1) = (b)adj(b) = det(b)1
+           => (b)(a)(det(b)1)(det(a)1) = (det(b)1)(det(a)1)
+           => (b)(a)(det(b)det(a))1 = (det(b)det(a))1
+           => (b)(a) = 1. []
+```
